@@ -1,0 +1,62 @@
+html,body {
+    margin: 0;
+    padding: 0;
+   
+    background-color:black;
+    background-size: 100% 100%;
+    
+  }
+  
+  canvas{
+    border: 2px solid black;
+  }
+  
+
+  h1 {
+    color: red;
+    font-size: 500%;
+    font-family: 'sans-serif';
+  }  
+  h5{
+    size: 10%;
+    
+  }
+  .whole{
+    background-color: black;
+    color: white;
+    text-align: center;
+    margin: 10%;
+    padding: 2%;
+    border-radius: 100px;
+  }
+p{
+  color:white;
+}
+.hello{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  background-color: white
+}
+.hi{
+  background-color: black;
+}
+.margin{
+  background-color: black;
+  color:white;
+}
+.hello p{
+  color:black;
+  position:  absolute;
+top: 10%;
+left: 50%;
+transform: translate(-50%,-50%);
+opacity: 0;
+
+}
+.hello:hover p{
+  opacity: 1;
+}
+.hello:hover img{
+  opacity: 0.33;
+}
